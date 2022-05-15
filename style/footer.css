@@ -1,0 +1,49 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.copyright{
+    padding: 10px;
+    color: aliceblue;
+    align-self: center;
+    margin-left: 5%;
+}
+
+i{
+    margin-left: 10px;
+}
+
+.footermenu{
+    padding: 10px;
+    align-self: center;
+}
+
+.footermenu>a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.topbtn{
+  align-self: center;
+  float: right;
+  margin-right: 5%;
+}
+
+.topbtn>a{
+    padding: 0px;
+    display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+    .footermenu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .copyright{
+        font-size: 12px;
+    }
+}

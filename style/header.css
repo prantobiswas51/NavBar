@@ -6,6 +6,10 @@
     padding-right: 50px;
 }
 
+.logo-container{
+    align-self: center;
+}
+
 .logo {
     height: 40px;
     margin-left: 20%;
@@ -38,10 +42,6 @@
 
 @media only screen and (max-width: 850px) {
 
-    .dropbtn {
-        display: block;
-    }
-
     .logo {
         margin-left: 10%;
         float: left;
@@ -51,6 +51,10 @@
         display: none;
     }
 
+    .nav-container{
+        padding-right: 20px;
+    }
+
     .navlink:hover {
         background-color: aquamarine;
     }
@@ -58,8 +62,7 @@
     /* from w3schools */
     .dropbtn {
         color: black;
-        padding: 16px;
-        font-size: 16px;
+        display: block;
         border: none;
         cursor: pointer;
         background-color: rgb(97, 192, 255);
@@ -106,6 +109,18 @@
 
     .show {
         display: block;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    .logo-container{
+        max-width: 50%;
+    }
+
+    .logo{
+        max-width: 200px;
     }
 
 }
